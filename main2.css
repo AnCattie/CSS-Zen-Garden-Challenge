@@ -1,0 +1,96 @@
+body {
+    background: url(./img/xmasbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.intro {
+    background: url(./img/snowman.png);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: right bottom;
+    text-align: center;
+    font: Verdana, sans-serif;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#zen-supporting {
+    background: url(./img/ice.png);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: center;
+
+}
+
+.design-archives > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+a {
+    color: #faba0a;
+    text-shadow: 1px 1px #000000;
+}
+
+.wrapper {
+    background: url(./img/santa.png);
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    background-position: right bottom;
+}
+
+.sidebar {
+    background: url(./img/santaswork.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: left bottom;
+    text-align: center;
+ }
+
+ .sidebar ul {
+    list-style-type: none;
+}
+
+h3:before {
+    background: url('./img/snow.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 5px 5px #07637a;
+}
+h2 {
+    font-size: 30px;
+    text-shadow: 3px 2px #0bb2ff;
+}
+
+h3 {
+    font-size: 20px;
+    text-shadow: 2px 1px #628ce6;
+}
+
+.design-selection {
+    display: inline-block;
+    float: center;
+}
+.design-archives {
+    display: inline-block;
+    float: center;
+}
+
+.zen-resources {
+    display: inline-block;
+    float: center;
+}
